@@ -146,16 +146,16 @@ if(isset($_POST['submit'])) {
                 // Server settings
          	   // $mail->SMTPDebug = SMTP::DEBUG_SERVER;   
                 $mail->isSMTP();                                            // Send using SMTP
-                $mail->Host       = 'mail.musaka.stud.vts.su.ac.rs';                       // Set the SMTP server to send through
+                $mail->Host       = 'yourhost';                       // Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-                $mail->Username   = 'musaka';                 // SMTP username
-                $mail->Password   = 'cwkJ3s7FqvlY2xb';                        // SMTP password                       // SMTP password
+                $mail->Username   = 'username';                 // SMTP username
+                $mail->Password   = 'password';                        // SMTP password                       // SMTP password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; PHPMailer::ENCRYPTION_SMTPS also accepted
                 $mail->Port       = 587;
-                $mail->addCC("prowebing@gmail.com"); //TCP port to connect to
+                $mail->addCC("yourcc@cc"); //TCP port to connect to
 
                 // Recipients
-                $mail->setFrom('musaka@musaka.stud.vts.su.ac.rs', 'Food Order');
+                $mail->setFrom('your@email.com', 'Food Order');
                 $mail->addAddress($customer_email);                         // Add a recipient
 
                 // Content
