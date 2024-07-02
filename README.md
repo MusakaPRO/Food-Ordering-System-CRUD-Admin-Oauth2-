@@ -3,5 +3,5 @@ Food Ordering System with (Registration, CRUD, Admin Panel, Oauth2, Tokens and P
 
 
 Extract rar files in the main folder.
-phpmailer, swagger etc
+swagger-ui-master.rar and food-order-dependencies.rar
 
