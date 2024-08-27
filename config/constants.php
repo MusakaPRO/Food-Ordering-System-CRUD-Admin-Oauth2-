@@ -3,7 +3,7 @@
 session_start();
 
 //Create Constants to Store Non Repeating Values
-define('SITEURL', 'https://musaka.stud.vts.su.ac.rs/food-order/'); //Update the home URL of the project if you have changed port number or it's live on server
+define('SITEURL', 'https://localhost/food-order/'); //Update the home URL of the project if you have changed port number or it's live on server
 define('LOCALHOST', 'localhost');
 define('DB_USERNAME', 'musaka');
 define('DB_PASSWORD', 'cwkJ3s7FqvlY2xb');
